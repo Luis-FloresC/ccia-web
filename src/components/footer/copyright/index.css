@@ -1,0 +1,9 @@
+.copy {
+  color: white;
+  text-decoration: none;
+}
+
+.copy:hover {
+  color: white;
+  text-decoration: underline;
+}
