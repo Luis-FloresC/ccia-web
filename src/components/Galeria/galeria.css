@@ -1,0 +1,23 @@
+.p-galleria .p-galleria-thumbnail-container {
+    background: #ffffff;
+    padding: 1rem 0.25rem;
+}
+
+.p-galleria .p-galleria-caption {
+    background: linear-gradient(40deg, #2096ff, #FF0202) !important;
+    opacity: 80%;
+    
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-prev,
+.p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-next {
+    margin: 0.5rem;
+    background-color: transparent;
+    color: #000;
+    width: 2rem;
+    height: 2rem;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    border-radius: 50%;
+}

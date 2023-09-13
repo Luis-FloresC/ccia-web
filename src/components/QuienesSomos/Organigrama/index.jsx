@@ -101,18 +101,7 @@ export function Organigrama() {
                                 title: 'Vocal I'
                             },
                             children: [
-                                {
-                                    expanded: true,
-                                    type: 'person',
-                                    data: {
-                                        image: '/images/iconos/icon-women.jpg',
-                                        name: 'Maribel Romero',
-                                        title: 'Vocal I Suplente'
-                                    },
-                                    children: [
-
-                                    ]
-                                },
+                               
                             ]
                         },
                         {

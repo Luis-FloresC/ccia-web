@@ -27,7 +27,7 @@ export default async function Home() {
           ]}
         />
         <br />
-        <HeroeSinFoto title={'Nuestros Servicios'} content={'Camara de Comercio e Industrias de Honduras'} />
+        <HeroeSinFoto title={'Nuestros Proyectos'} content={'Camara de Comercio e Industrias de Honduras'} />
         <br />
         <Cards data={servicios} />
         <br />
