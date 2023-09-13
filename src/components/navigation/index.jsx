@@ -93,7 +93,7 @@ export function Navigation() {
             if (!!link.children) {
               return (<UncontrolledDropdown nav inNavbar key={key}>
                 <DropdownToggle nav caret style={{
-                  color: `${link.href}` === `/${String(currentRoute).split("/")[1]}` ? "#fbcb07" : "white",
+                  color: `${link.href}` === `/${String(currentRoute).split("/")[1]}` ? "#FBCC0F" : "white",
                   textTransform: "uppercase",
                 }}>
                   <strong>
@@ -115,7 +115,7 @@ export function Navigation() {
                             className={`nav-link ${`${link.href}/${l.href}` === currentRoute ? "active" : ""}`}
                             onClick={() => setOpen(false)}
                             style={{
-                              color: `${link.href}/${l.href}` === currentRoute ? "#fbcb07" : "black",
+                              color: `${link.href}/${l.href}` === currentRoute ? "#FBCC0F" : "black",
                               textTransform: "uppercase",
                             }}
                           >
@@ -140,7 +140,7 @@ export function Navigation() {
                     }`}
                   onClick={() => setOpen(false)}
                   style={{
-                    color: link.href === currentRoute ? "#fbcb07" : "white",
+                    color: link.href === currentRoute ? "#FBCC0F" : "white",
                     textTransform: "uppercase",
                   }}
                 >

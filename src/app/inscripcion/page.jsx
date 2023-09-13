@@ -22,7 +22,7 @@ export default async function Inscripcion() {
               image={'/images/inscripciones/banner.jpg'}
               links={[
                 {
-                  'href': '#',
+                  'href': '/socios#beneficio',
                   'title': 'Mira los Beneficios'
                 }
               ]}

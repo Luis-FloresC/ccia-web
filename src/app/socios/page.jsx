@@ -3,12 +3,13 @@ import { HeroeSinFoto } from '@/components/Heroe/HeroeSinFoto'
 import { getCapitales } from '@/services'
 import './socios.css'
 import { Carrusel3D } from '@/components/Carrusel/Carrusel3D'
+import { TabViewSocios } from '@/components/Socios/TabViewPanel'
+
+
 
 export default async function Inscripcion() {
   const capitales = await getCapitales();
-  const formatCurrency = (value) => {
-    return value.toLocaleString('es-HN', { style: 'currency', currency: 'HNL' });
-  };
+
   return (
     <main>
       <section className="py-5 text-center container">
@@ -33,45 +34,31 @@ export default async function Inscripcion() {
 
         <div className="row">
 
-          <div className="col-md-12 pb-5">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <HeroeSinFoto title={'Cuotas de Afiliacion'} content={'Camara de Comercio e Industria de Honduras'} />
-          </div>
-          <div className="col-md-12">
-            <div className="table-responsive">
-              <table className="table table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col" className="text-center">
-                      Rango
-                    </th>
-                    <th scope="col" className="text-center">
-                      Pago por Inscripción
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {capitales.map((capital) => (
-                    <tr key={capital.capital_id}>
-                      <td>{capital.capital_descripcion}</td>
-                      <td>{formatCurrency(capital.capital_pago_por_inscripcion)}</td>
-                    </tr>
-                  ))}
 
-                </tbody>
-              </table>
-            </div>
+          <div className="col-md-12">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <HeroeConFoto
+              title={"¿QUIÉNES PUEDEN AFILIARSE?"}
+              content={"Toda persona natural o jurídica que ejerce una actividad comercial, industrial o de servicio y todas las personas que por la naturaleza de su profesión u oficio tengan relaciones con el comercio en cualquiera de sus formas."}
+              image={"/images/inscripciones/banner2.jpg"}
+              links={[]}
+            />
+          </div>
+          <div className="col-md-12" id="beneficio">
+            <br />
+            <TabViewSocios Capitales_={capitales} />
           </div>
         </div>
       </section>
     </main>
   )
 }
+
