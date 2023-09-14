@@ -4,7 +4,7 @@ export async function getCardsServicioInicio() {
           "img": "/images/inicio/Cards/OLA.jpg",
           "title": "OLA Conferencia Empresarial",
           "caption": `La Cámara de Comercio hizo historia en el año 2022 con su primera conferencia empresarial, que se llevó a cabo el 25 de agosto de 2022. Bajo el título "Oportunidades en el Litoral Atlántico", esta noche excepcional tuvo lugar en el elegante salón Majestic. `,
-          "link": "/servicios/cde"
+          "link": "/servicios/ola"
         },
         {
           "img": "/images/inicio/Cards/CCA.png",
@@ -22,13 +22,13 @@ export async function getCardsServicioInicio() {
           "img": "/images/inicio/Cards/EXPO.jpg",
           "title": "Expo",
           "caption": "Expo del Atlántico la plataforma de contactos empresariales e industriales que fomenta el crecimiento e intercambio, comercial de bienes y servicios para las industrias productivas y familias del país",
-          "link": "#"
+          "link": "/servicios/expo"
         },
         {
             "img": "/images/inicio/Cards/risp-hoo.jpg",
             "title": "Proyecto RISP-HO",
             "caption": "La Cámara de Comercio e Industrias de Atlántida (CCIA) es la entidad gestora temporal, que brindará los servicios para la contratación de personal  de salud, adquisición de medicamentos, EPP,  servicios de diagnósticos (Laboratorios, radiología e imágenes) oxígenos y otros,  para manejo integral de pacientes con COVID-19.",
-            "link": "#"
+            "link": "/proyecto-risp-ho"
           },
       ];
     return data;

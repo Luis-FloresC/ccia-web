@@ -22,24 +22,16 @@ const links = [
     title: "Servicios",
     children: [
       {
-        href: "cde",
-        title: "CDE"
+        href: "fortaleciendo-mi-pyme",
+        title: "Fortalecimiento Mi Pyme"
       },
       {
-        href: "cev",
-        title: "CEV"
+        href: "formacion-empresarial",
+        title: "Formación Empresarial"
       },
       {
-        href: "cca",
-        title: "CCA"
-      },
-      {
-        href: "ola",
-        title: "OLA"
-      },
-      {
-        href: "expo",
-        title: "Expo"
+        href: "asesorias",
+        title: "Asesorias"
       },
       {
         href: "/",

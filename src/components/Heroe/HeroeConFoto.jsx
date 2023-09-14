@@ -13,7 +13,7 @@ export function HeroeConFoto({ title, content, links, image ,width="700",height=
                     <p className="lead text-white">{content}</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-center">
                         {links.map((link, key) => (
-                            <a key={key} type="button" href={link.href} className="btn btn-success btn-lg px-4 me-md-2">{link.title}</a>
+                            <a key={key} target='_blank' type="button" href={link.href} className="btn btn-success btn-lg px-4 me-md-2">{link.title}</a>
                         ))}
                     </div>
                 </div>
