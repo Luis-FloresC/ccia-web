@@ -26,7 +26,7 @@ export function Carrusel({ pictures = [] }) {
       <br />
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={images[imageIndex]} className="d-block w-100 rounded img-fluid" width='auto' alt="..." style={{height:'350px'}} />
+          <img src={images[imageIndex]} className="d-block w-100 rounded img-fluid" width='auto' alt={images[imageIndex]} style={{height:'350px'}} />
         </div>
 
       </div>

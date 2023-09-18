@@ -19,7 +19,7 @@ export default async function Expo() {
     const imagesExpo = await getImagesExpo();
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className=" text-center container">
                 <br />
 
                 <div className="row">
@@ -69,7 +69,7 @@ export default async function Expo() {
                             content={'Expo Ferias del Atlántico 2023'} />
                     </div>
                     <div className="col-md-12 ">
-                    <GaleriaModerna data={imagesExpo}  />
+                        <GaleriaModerna data={imagesExpo} />
 
                     </div>
                 </div>

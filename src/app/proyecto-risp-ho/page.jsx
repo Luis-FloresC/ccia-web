@@ -19,13 +19,13 @@ export default async function ProyectoRISPHO() {
 
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className=" text-center container">
                 <Carrusel
                     pictures={[
                         "/images/RISP-HO/2.jpg",
                         "/images/RISP-HO/3.jpg",
                         "/images/RISP-HO/4.jpg",
-                        "/images/RISP-HO/7.jpg",
+                       
                     ]}
                 />
 

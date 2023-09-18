@@ -13,7 +13,7 @@ export default async function FormacionEmpresarial() {
     const talleres = await getTalleres();
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className=" text-center container">
 
                 <dic className="row">
 

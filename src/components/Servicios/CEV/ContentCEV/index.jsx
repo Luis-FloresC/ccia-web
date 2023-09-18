@@ -1,5 +1,6 @@
 "use client";
 
+import { HeroeSinFoto } from '@/components/Heroe/HeroeSinFoto';
 import Image from 'next/image'
 import { ScrollPanel } from 'primereact/scrollpanel';
 import { Splitter, SplitterPanel } from 'primereact/splitter';
@@ -97,11 +98,20 @@ export function ContentCEV() {
 
                         <div className="container">
                             <div className="col-lg-12  p-0 overflow-hidden shadow-lg justify-content-center">
-                                <Image className="rounded-lg-3 rounded" src="/images/CEV/2.jpg" alt="" width="750" height={400} />
+                                <Image className="rounded-lg-3 rounded" style={{maxWidth:'auto'}} src="/images/CEV/2.jpg" alt="" width="600" height={400} />
                             </div>
                         </div>
                     </SplitterPanel>
                 </Splitter>
+                <div className="col-md-12">
+                    <br />
+                    <HeroeSinFoto title={"Nuestra Ubicación"} content={"Cámara de Comercio e Industrias de Atlántida"} />
+                </div>
+                <div className="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.0554316675393!2d-86.8562956!3d15.7482066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6901cca1c6f2a7%3A0x106c0e2ba0e90ed7!2sCev%20La%20Ceiba!5e0!3m2!1ses-419!2shn!4v1695009664470!5m2!1ses-419!2shn" width="800" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <br />
+                </div>
+                <br />
             </div>
 
         </div>

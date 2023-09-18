@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+
 import { Carrusel } from '@/components/Carrusel'
 import { HeroeSinFoto } from '@/components/Heroe/HeroeSinFoto'
 import { getCardsServicioInicio } from '@/services/ServiciosCCIA'
@@ -12,7 +11,7 @@ export default async function Home() {
   const logros = await getLogros();
   return (
     <main>
-      <section className="py-5 text-center container">
+      <section className="text-center container">
         <Carrusel
           pictures={[
             "/images/inicio/Slide/1.jpg",
@@ -27,11 +26,11 @@ export default async function Home() {
           ]}
         />
         <br />
-        <HeroeSinFoto title={'Nuestros Proyectos'} content={'Camara de Comercio e Industrias de Honduras'} />
+        <HeroeSinFoto title={'Nuestros Proyectos'} content={'Cámara de Comercio e Industrias de Atlántida'} />
         <br />
         <Cards data={servicios} />
         <br />
-        <HeroeSinFoto title={'Logros Obtenidos'} content={'Camara de Comercio e Industrias de Honduras'} />
+        <HeroeSinFoto title={'Logros Obtenidos'} content={'Cámara de Comercio e Industrias de Atlántida'} />
         <br />
         <OrderListGroup data={logros} />
         <br />

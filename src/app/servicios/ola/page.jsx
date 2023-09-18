@@ -9,7 +9,7 @@ export default async function Ola() {
   const terceraConferencia = await getTerceraConferencia();
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className=" text-center container">
                 <br />
 
                 <div className="row">

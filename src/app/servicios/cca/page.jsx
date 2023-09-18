@@ -5,18 +5,14 @@ import { SplitterCCA } from "@/components/Servicios/CCA/SpliterCCA";
 export default async function CCA() {
   return (
     <main>
-      <section className="py-5 text-center container">
+      <section className="text-center container">
         <br />
 
         <div className="row">
           <div className="col-md-12">
             <Carrusel
               pictures={[
-                "/images/CCI/1.jpg",
-                "/images/CCI/2.jpg",
-                "/images/CCI/3.jpg",
-                "/images/CCI/4.jpg",
-                "/images/CCI/5.jpg",
+                "/images/CCI/banner.jpg",
               ]}
             />
           </div>
@@ -27,7 +23,8 @@ export default async function CCA() {
             <HeroeConFoto
               title={"DESCARGABLES"}
               content={""}
-              image={"/images/inicio/Cards/2.jpg"}
+              image={"/images/CCI/6.jpg"}
+              tipoFondo="solid"
               links={[
                 {
                   title: "Reglamento del CCA",

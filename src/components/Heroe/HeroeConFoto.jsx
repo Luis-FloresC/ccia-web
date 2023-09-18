@@ -1,15 +1,16 @@
 "use client";
 import './heroe.css'
-export function HeroeConFoto({ title, content, links, image ,width="700",height="500"}) {
+export function HeroeConFoto({ title, content, links, image ,width="700",height="500" ,tipoFondo="degradado"}) {
+const clases = "container col-xxl-8  aqua-gradient w-auto rounded-2";
 
     return (
-        <div className="container col-xxl-8  aqua-gradient w-auto">
+        <div className={tipoFondo !== "solid" ? "container col-xxl-8  aqua-gradient w-auto rounded-2 border" : "container col-xxl-8  bg-white w-auto rounded-2 border"}>
             <div className="row flex-lg-row-reverse align-items-center">
-                <div className="col-10 col-sm-8 col-lg-6">
-                    <img src={image} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width={width} height={height} loading="lazy" />
+                <div className="col-10 col-sm-8 col-lg-6 m-0 p-0">
+                    <img src={image} className="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width={width} height={height} loading="lazy" />
                 </div>
-                <div className="col-lg-6">
-                    <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">{title}</h5>
+                <div className="col-lg-6 ">
+                    <h5 className=" fw-bold text-body-emphasis">{title}</h5>
                     <p className="lead text-white">{content}</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-center">
                         {links.map((link, key) => (

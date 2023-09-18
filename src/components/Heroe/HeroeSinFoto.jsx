@@ -3,7 +3,7 @@ import './heroe.css'
 export function HeroeSinFoto({ title, content }) {
 
     return (
-        <div className=" text-secondary text-center aqua-gradient " style={{ height: 'auto', }}>
+        <div className=" text-secondary text-center aqua-gradient rounded " style={{ height: 'auto', }}>
             <div >
                 <h1 className="display-5 fw-bold text-black">{title}</h1>
                 <div className="col-lg-6 mx-auto">

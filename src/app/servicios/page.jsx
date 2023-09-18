@@ -13,25 +13,27 @@ export default async function Servicios() {
 
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className=" text-center container">
                 <br />
 
                 <Carrusel
-                    pictures={[
-                        "/images/inicio/SALONES/1.jpg",
-                        "/images/inicio/SALONES/2.jpg",
-                        "/images/inicio/SALONES/3.jpg",
-                        "/images/inicio/SALONES/4.jpg",
-                        "/images/inicio/SALONES/5.jpg",
-                        "/images/inicio/SALONES/6.jpg",
-                        "/images/inicio/SALONES/7.jpg",
-                    ]}
+                   pictures={[
+                    "/images/inicio/Slide/1.jpg",
+                    "/images/inicio/Slide/2.jpg",
+                    "/images/inicio/Slide/3.jpg",
+                    "/images/inicio/Slide/4.jpg",
+                    "/images/inicio/Slide/5.jpg",
+                    "/images/inicio/Slide/6.jpg",
+                    "/images/inicio/Slide/7.jpg",
+                    "/images/inicio/Slide/8.jpg",
+                    "/images/inicio/Slide/9.jpg",
+                  ]}
                 />
                 <br />
 
                 <div className="row">
                     <div className="col-md-12">
-                        <HeroeSinFoto title={'Servicios'} content={'Camara de Comercio e Industrias de Honduras'} />
+                        <HeroeSinFoto title={'Servicios'} content={'Camara de Comercio e Industrias de Atlántida'} />
                     </div>
                     <div className="col-md-12">
                         <div className="row">

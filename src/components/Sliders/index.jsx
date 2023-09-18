@@ -11,13 +11,13 @@ export function Slider({ data, numVisible, numScroll, width, height, orientacion
     const responsiveOptions = [
         {
             breakpoint: '1199px',
-            numVisible: 1,
-            numScroll: 1
+            numVisible: numVisible,
+            numScroll: numScroll
         },
         {
             breakpoint: '991px',
-            numVisible: 2,
-            numScroll: 1
+            numVisible: numVisible,
+            numScroll: numScroll
         },
         {
             breakpoint: '767px',

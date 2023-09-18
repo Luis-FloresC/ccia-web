@@ -12,7 +12,7 @@ export default async function Inscripcion() {
   };
   return (
     <main>
-      <section className="py-5 text-center container">
+      <section className="text-center container">
         <br />
         <div className="row">
           <div className="col-lg-12">
@@ -43,7 +43,7 @@ export default async function Inscripcion() {
           </div>
           <div className="col-md-12">
             <br />
-            <HeroeSinFoto title={'Cuotas de Afiliacion'} content={'Camara de Comercio e Industria de Honduras'} />
+            <HeroeSinFoto title={'Cuotas de Afiliacion'} content={'Cámara de Comercio e Industrias de Atlántida'} />
           </div>
           <div className="col-md-12">
             <div className="table-responsive">

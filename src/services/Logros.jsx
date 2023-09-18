@@ -8,7 +8,7 @@ export async function getLogros() {
         },
         {
             id: '2',
-            description: 'Ejecución de Programa Risp-HO',
+            description: 'Ejecución de Programa RISP-HO',
             image: '/images/iconos/medalla.png',
             subOpciones: []
         },
@@ -32,17 +32,17 @@ export async function getLogros() {
         },
         {
             id: '6',
-            description: 'Integracion a diferentes Comités como ser:',
+            description: 'Integración a diferentes Comités como ser:',
             image: '/images/iconos/medalla.png',
             subOpciones: [
-                'Fundacion Parque Nacional Nombre de Dios.',
+                'Fundación Parque Nacional Nombre de Dios.',
                 'Red Ecológica Hondureña para el Desarrollo Sostenible.',
                 'Comité de apoyo al Cuerpo de Bomberos',
-                'Comité de Pro- Construcción del Hospital Regional de Atlántida',
+                'Comité de Pro-Construcción del Hospital Regional de Atlántida',
                 'Comité vial de La Ceiba',
                 'Comité de apoyo del traspaso del sistema de agua potable a la Municipalidad de La Ceiba.',
-                'Iniciativa en la constitución de la Empresa Mercantil ¨Corporación Portuaria y Desarrollo s S.A de C. V¨, (CORPODESA).',
-                'Comité de Prevencion de Violencia La Ceiba Para Todos CREDIA'
+                'Iniciativa en la constitución de la Empresa Mercantil "Corporación Portuaria y Desarrollo S.A de C. V", (CORPODESA).',
+                'Comité de Prevención de Violencia La Ceiba Para Todos CREDIA'
             ]
         },
 

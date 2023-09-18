@@ -49,7 +49,7 @@ export default function Contactenos() {
 
     return (
         <main>
-            <section className="py-5 text-center container">
+            <section className="text-center container">
 
 
                 <div className="">
@@ -69,7 +69,7 @@ export default function Contactenos() {
                                 ></iframe>
                             </div>
                             <div className="col-sm-12">
-                                <HeroeSinFoto title={'Escribenos'} content={'Camara de Comercio e Industrias de Atlantida'} />
+                                <HeroeSinFoto title={'Escríbenos'} content={'Cámara de Comercio e Industrias de Atlántida'} />
                                 <div className="container lead">
                                     <form className="row g-3 mt-3">
                                         <div className="col-6">
