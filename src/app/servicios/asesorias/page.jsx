@@ -1,6 +1,6 @@
 import { HeroeSinFoto } from '@/components/Heroe/HeroeSinFoto'
 import { Slider } from '@/components/Sliders'
-import { getCuartaAsesoria, getPrimeraAsesoria,getSegundaAsesoria, getTerceraAsesoria } from '@/services/AsesoriasServices';
+import { getCuartaAsesoria, getPrimeraAsesoria, getSegundaAsesoria, getTerceraAsesoria } from '@/services/AsesoriasServices';
 
 
 
@@ -55,7 +55,7 @@ export default async function Asesorias() {
                                         <h5 className="mt-0 font-weight-bold mb-2">Licenciamiento y Permisos Sanitarios</h5>
 
                                         <p className="text-muted mb-0 " style={{ textAlign: "justify" }}>
-                                        En muchas industrias, obtener los permisos y licencias adecuadas es un requisito legal antes de poder operar. La Cámara de Comercio puede ayudar a las personas a comprender qué licencias y permisos son necesarios para su tipo de negocio, cómo obtenerlos y cómo mantenerse en conformidad con las regulaciones sanitarias. 
+                                            En muchas industrias, obtener los permisos y licencias adecuadas es un requisito legal antes de poder operar. La Cámara de Comercio puede ayudar a las personas a comprender qué licencias y permisos son necesarios para su tipo de negocio, cómo obtenerlos y cómo mantenerse en conformidad con las regulaciones sanitarias.
                                         </p>
                                         <br />
                                         <a href="https://www.gs1hn.org/index.html" target='_blank' className="btn btn-success w-auto">Visitar</a>
@@ -74,7 +74,7 @@ export default async function Asesorias() {
                                         <h5 className="mt-0 font-weight-bold mb-2">Registro de Marcas y Patentes</h5>
 
                                         <p className="text-muted mb-0 " style={{ textAlign: "justify" }}>
-                                        La protección de la propiedad intelectual es esencial para resguardar las ideas y productos únicos de una empresa. La Cámara de Comercio ofrece servicios de registro de marcas y patentes para ayudar a los empresarios a proteger sus creaciones y a evitar que otros las copien o utilicen sin autorización.
+                                            La protección de la propiedad intelectual es esencial para resguardar las ideas y productos únicos de una empresa. La Cámara de Comercio ofrece servicios de registro de marcas y patentes para ayudar a los empresarios a proteger sus creaciones y a evitar que otros las copien o utilicen sin autorización.
                                         </p>
                                         <br />
                                         <a href="https://arsa.gob.hn/requisitos-para-licencia-sanitaria-de-establecimientos-para-dispositivos-medicos/" target='_blank' className="btn btn-success w-auto">Visitar</a>
@@ -93,7 +93,7 @@ export default async function Asesorias() {
                                         <h5 className="mt-0 font-weight-bold mb-2">Derechos de Autor y Propiedad Intelectual</h5>
 
                                         <p className="text-muted mb-0 " style={{ textAlign: "justify" }}>
-                                        En un mundo cada vez más digital, la protección de los derechos de autor y la propiedad intelectual es crucial. La Cámara de Comercio brinda asesoramiento sobre cómo proteger obras creativas, como música, arte, software y más, para que los creadores puedan beneficiarse de su trabajo de manera justa y legal. 
+                                            En un mundo cada vez más digital, la protección de los derechos de autor y la propiedad intelectual es crucial. La Cámara de Comercio brinda asesoramiento sobre cómo proteger obras creativas, como música, arte, software y más, para que los creadores puedan beneficiarse de su trabajo de manera justa y legal.
                                         </p>
                                         <a href="https://www.ip.gob.hn/direcciones/propiedad-intelectual/menu-propiedad-intelectual/derechos-de-autor" target='_blank' className="btn btn-success w-auto">Visitar</a>
                                         <br />
@@ -107,7 +107,8 @@ export default async function Asesorias() {
 
                     </div>
                 </div>
-
+                <br />
+                <br />
             </section>
         </main>
     )

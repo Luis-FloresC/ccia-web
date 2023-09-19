@@ -54,14 +54,14 @@ export default async function Servicios() {
                                         <div className="card mb-3">
                                             <div className="row g-0">
                                                 <div className="col-md-4">
-                                                    <Image src="/images/inicio/Cards/1.jpg" width={300} height={300} className=" rounded-start object-fit-xxl-contain rounded-circle my-2" alt="..." />
+                                                    <Image src="/images/inicio/Cards/1.jpg" width={300} height={300} className="img-fluid  rounded my-5" alt="..." />
                                                 </div>
                                                 <div className="col-md-8 px-4">
                                                     <div className="card-body">
                                                         <h5 className="card-title">Fortalecimiento Mi Pyme</h5>
                                                         <p className="card-text text-start ">
                                                             La Cámara de Comercio ofrece un servicio fundamental conocido como "Fortalecimiento Mi Pyme", diseñado específicamente para brindar apoyo y recursos a las pequeñas y medianas empresas (Pymes).                        </p>
-                                                        <p className="card-text"><a href="servicios/cde" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
+                                                        <p className="card-text"><a href="servicios/fortaleciendo-mi-pyme" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
 
                                                     </div>
                                                 </div>
@@ -73,7 +73,7 @@ export default async function Servicios() {
                                         <div className="card mb-3">
                                             <div className="row g-0">
                                                 <div className="col-md-4">
-                                                    <Image src="/images/inicio/Cards/2.jpg" width={300} height={300} className="rounded-start object-fit-xxl-contain  rounded" alt="..." />
+                                                    <Image src="/images/inicio/Cards/2.jpg" width={300} height={300} className="img-fluid  rounded my-5" alt="..." />
                                                 </div>
                                                 <div className="col-md-8 px-4">
                                                     <div className="card-body">
@@ -82,7 +82,7 @@ export default async function Servicios() {
                                                             La Cámara de Comercio ofrece una amplia variedad de temas en sus programas de formación empresarial, que van desde la gestión financiera y el marketing hasta la planificación estratégica y el desarrollo de habilidades de liderazgo. Estos talleres son impartidos por expertos en cada campo, lo que garantiza que los participantes reciban información actualizada y relevante.
 
                                                         </p>
-                                                        <p className="card-text"><a href="/servicios/cca" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
+                                                        <p className="card-text"><a href="/servicios/formacion-empresarial" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
 
                                                     </div>
                                                 </div>
@@ -94,7 +94,7 @@ export default async function Servicios() {
                                         <div className="card mb-3">
                                             <div className="row g-0">
                                                 <div className="col-md-4 ">
-                                                    <Image src="/images/inicio/Cards/4.jpg" width={300} height={400} className=" rounded-start object-fit-xxl-contain  rounded" alt="..." />
+                                                    <Image src="/images/inicio/Cards/4.jpg" width={300} height={400} className=" img-fluid  rounded my-5" alt="..." />
                                                 </div>
                                                 <div className="col-md-8 px-4">
                                                     <div className="card-body">
@@ -110,7 +110,7 @@ export default async function Servicios() {
                                                             <li className="list-group-item">Registro de Marcas y Patentes</li>
                                                         </ol>
                                                         <br />
-                                                        <p className="card-text"><a href="/servicios/cev" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
+                                                        <p className="card-text"><a href="/servicios/asesorias" className="btn btn-primary bg-primary w-auto">Leer Más</a></p>
 
                                                     </div>
                                                 </div>

@@ -13,10 +13,10 @@ export default async function FortaleciendoMiPyme() {
     return (
         <main>
             <section className="py-5 text-center container">
-            <HeroeSinFoto
-                            title={"Fortalecimiento Mi Pyme"}
-                            content={"Cámara de Comercio e Industrias de Atlántida"}
-                        />
+                <HeroeSinFoto
+                    title={"Fortalecimiento Mi Pyme"}
+                    content={"Cámara de Comercio e Industrias de Atlántida"}
+                />
                 <div className="clearfix">
                     <img src="/images/inicio/Cards/1.jpg" className="col-md-6 float-md-end mb-3 ms-md-3 rounded border" alt="..." />
 
@@ -75,54 +75,94 @@ export default async function FortaleciendoMiPyme() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade" id="list-modulo-1" role="tabpanel" aria-labelledby="list-profile-list">
+                                    <div className="tab-pane fade m-auto" id="list-modulo-1" role="tabpanel" aria-labelledby="list-profile-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Por Qué Existe Mi Negocio?</h5>
                                         <p className="lead">
                                             Se profundiza en la razón de ser del negocio, su misión, visión y valores, y cómo estos elementos fundamentales guían las decisiones empresariales.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-2" role="tabpanel" aria-labelledby="list-settings-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿A Quién le Vendo?</h5>
                                         <p className="lead">
                                             En este módulo se explora la segmentación del mercado y la identificación de los clientes ideales para el negocio.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-3" role="tabpanel" aria-labelledby="list-settings-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Quién Más Vende?</h5>
                                         <p className="lead">
                                             Se analiza la competencia y se estudian estrategias para destacar en un mercado competitivo.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-4" role="tabpanel" aria-labelledby="list-messages-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Qué Vendo?</h5>
                                         <p className="lead">
-                                        Este módulo se enfoca en definir claramente los productos o servicios que ofrece el negocio y cómo se diferencian de la competencia.
+                                            Este módulo se enfoca en definir claramente los productos o servicios que ofrece el negocio y cómo se diferencian de la competencia.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-5" role="tabpanel" aria-labelledby="list-settings-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Cómo Vendo?</h5>
                                         <p className="lead">
-                                        Se abordan estrategias de marketing y ventas para llegar a los clientes de manera efectiva.
+                                            Se abordan estrategias de marketing y ventas para llegar a los clientes de manera efectiva.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-6" role="tabpanel" aria-labelledby="list-home-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Cuánto Gasto?</h5>
                                         <p className="lead">
-                                        En este módulo se aborda la gestión financiera del negocio, incluyendo la identificación y control de los costos y gastos.
+                                            En este módulo se aborda la gestión financiera del negocio, incluyendo la identificación y control de los costos y gastos.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-7" role="tabpanel" aria-labelledby="list-profile-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">¿Cuándo Alcanzaré las Metas?</h5>
                                         <p className="lead">
-                                        Establecimiento de objetivos claros y medibles para el negocio y planificación de metas a corto, mediano y largo plazo.
+                                            Establecimiento de objetivos claros y medibles para el negocio y planificación de metas a corto, mediano y largo plazo.
                                         </p>
                                     </div>
                                     <div className="tab-pane fade" id="list-modulo-8" role="tabpanel" aria-labelledby="list-messages-list">
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
                                         <h5 className=" fw-bold text-body-emphasis lh-1 mb-3">
-                                        ¿Qué Impacto Genero?
+                                            ¿Qué Impacto Genero?
                                         </h5>
                                         <p className="lead">
-                                        El último módulo se enfoca en la importancia de generar un impacto positivo en diferentes esferas, incluyendo lo personal, empresarial, familiar y socioambiental.
+                                            El último módulo se enfoca en la importancia de generar un impacto positivo en diferentes esferas, incluyendo lo personal, empresarial, familiar y socioambiental.
                                         </p>
                                     </div>
 
@@ -133,10 +173,10 @@ export default async function FortaleciendoMiPyme() {
 
                     <div className="col-md-12">
                         <br />
-                        <HeroeConFoto title={"Acerca de los Módulos para el Fortalecimiento de Mi Pymes"} 
-                        content={"Estos módulos, en conjunto, proporcionan a los participantes las herramientas y los conocimientos necesarios para crear y gestionar un negocio de manera consciente, teniendo en cuenta no solo el aspecto económico, sino también el impacto social y ambiental de sus operaciones."}
-                        image={"/images/Fortaleciendo-Mi-Pyme/1.jpg"}
-                        links={[]}/>
+                        <HeroeConFoto title={"Acerca de los Módulos para el Fortalecimiento de Mi Pymes"}
+                            content={"Estos módulos, en conjunto, proporcionan a los participantes las herramientas y los conocimientos necesarios para crear y gestionar un negocio de manera consciente, teniendo en cuenta no solo el aspecto económico, sino también el impacto social y ambiental de sus operaciones."}
+                            image={"/images/Fortaleciendo-Mi-Pyme/1.jpg"}
+                            links={[]} />
                     </div>
                 </dic>
             </section>

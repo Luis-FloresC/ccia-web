@@ -1,26 +1,26 @@
 import { HeroeSinFoto } from '@/components/Heroe/HeroeSinFoto'
 import { Slider } from '@/components/Sliders'
-import { getPrimeraConferencia,getSegundaConferencia,getTerceraConferencia } from '@/services/OlaServices';
+import { getPrimeraConferencia, getSegundaConferencia, getTerceraConferencia } from '@/services/OlaServices';
 
 
 export default async function Ola() {
-    const primeraConferencia = await getPrimeraConferencia();
+  const primeraConferencia = await getPrimeraConferencia();
   const segundaConferencia = await getSegundaConferencia();
   const terceraConferencia = await getTerceraConferencia();
-    return (
-        <main>
-            <section className=" text-center container">
-                <br />
+  return (
+    <main>
+      <section className=" text-center container">
+        <br />
 
-                <div className="row">
-                    <div className="col-md-12">
-                        <HeroeSinFoto
-                            title={'Conferencias Empresariales'}
-                            content={'Oportunidades en el Litoral Atlantico'} />
-                    </div>
-                </div>
+        <div className="row">
+          <div className="col-md-12">
+            <HeroeSinFoto
+              title={'Conferencias Empresariales'}
+              content={'Oportunidades en el Litoral Atlantico'} />
+          </div>
+        </div>
 
-                <div className="row">
+        <div className="row">
           <div className="col-lg-12 mx-auto">
 
 
@@ -123,9 +123,10 @@ export default async function Ola() {
 
           </div>
         </div>
-
-            </section>
-        </main>
-    )
+        <br />
+        <br />
+      </section>
+    </main>
+  )
 }
 
