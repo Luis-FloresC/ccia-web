@@ -16,7 +16,7 @@ export default async function Ola() {
           <div className="col-md-12">
             <HeroeSinFoto
               title={'Conferencias Empresariales'}
-              content={'Oportunidades en el Litoral Atlantico'} />
+              content={'Oportunidades en el Litoral Atlántico'} />
           </div>
         </div>
 

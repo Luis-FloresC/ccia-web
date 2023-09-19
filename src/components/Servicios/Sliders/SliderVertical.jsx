@@ -32,19 +32,19 @@ export function SlideVertical({ typeSalon }) {
 
 
         return (
-            <div class="card" style={{width: 'auto' , height:'370px'}}>
-                <img class="card-img-top" height={150} src={product.image} alt="Card image cap" />
-                <div class="card-body">
-                    <h5 class="card-title">{product.name}</h5>
-                    <p class="card-text">Capacidad</p>
-                    <a href="#" class="btn btn-primary w-auto" >{product.capacidad}</a>
+            <div className="card" style={{width: 'auto' , height:'auto'}}>
+                <img className="img-card-top rounded " height={"150px"} src={product.image} alt="Card image cap " />
+                <div className="card-body">
+                    <h5 className="card-title" style={{fontSize:"15px"}}>{product.name}</h5>
+                    <p className="card-text">Capacidad</p>
+                    <a href="#" className="btn btn-primary w-auto" >{product.capacidad}</a>
                 </div>
             </div>
         );
     };
 
     return (
-        <div className="card" >
+        <div className="" >
             <Carousel value={products} numVisible={1} numScroll={1} orientation="vertical" autoplayInterval={10000} verticalViewPortHeight="360px"
                 itemTemplate={productTemplate} />
         </div>

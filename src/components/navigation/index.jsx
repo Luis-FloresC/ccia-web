@@ -31,7 +31,7 @@ const links = [
       },
       {
         href: "asesorias",
-        title: "Asesorias"
+        title: "Asesorías"
       },
       {
         href: "/",

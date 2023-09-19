@@ -1,5 +1,6 @@
 import { Carrusel } from "@/components/Carrusel";
 import { HeroeConFoto } from "@/components/Heroe/HeroeConFoto";
+import { HeroeSinFoto } from "@/components/Heroe/HeroeSinFoto";
 import { SplitterCCA } from "@/components/Servicios/CCA/SpliterCCA";
 
 export default async function CCA() {
@@ -10,16 +11,12 @@ export default async function CCA() {
 
         <div className="row">
           <div className="col-md-12">
-            <Carrusel
-              pictures={[
-                "/images/CCI/banner.jpg",
-              ]}
-            />
+            <Carrusel pictures={["/images/CCI/banner.jpg"]} />
           </div>
-          
+
           <div className="col-md-12">
-          <br />
-          <br />
+            <br />
+            <br />
             <HeroeConFoto
               title={"DESCARGABLES"}
               content={""}
@@ -40,8 +37,30 @@ export default async function CCA() {
         </div>
         <br />
         <br />
-        <SplitterCCA />
+        <div className="row">
+          <div className="col-md-12">
+            <SplitterCCA />
+          </div>
+          <div className="col-md-12">
+            <br />
+            <HeroeSinFoto
+              title={"Ventajas de la Conciliación"}
+              content={"Centro de Conciliacion y Arbitraje"}
+            />
+          </div>
+          <div className="col-md-12">
+            <br />
+            <img
+              src="/images/CCI/7.jpg"
+              height={"500px"}
+              width={"500px"}
+              className="img-fluid m-2"
+              alt="ventajas"
+            />
+          </div>
+        </div>
       </section>
+      <section className="container-fluid m-2"></section>
     </main>
   );
 }

@@ -17,7 +17,7 @@ export default async function Inscripcion() {
         <div className="row">
           <div className="col-lg-12">
             <HeroeConFoto
-              title={'¿POR QUÉ LAS EMPRESAS DEBEN REGISTRARSE/INSCRIBIRSE EN LA CÁMARA DE COMERCIO E INDUSTRAS DE LA CEIBA?'}
+              title={'¿POR QUÉ LAS EMPRESAS DEBEN REGISTRARSE/INSCRIBIRSE EN LA CÁMARA DE COMERCIO E INDUSTRIAS DE LA CEIBA?'}
               content={'¿Deseas Afiliarte a la Cámara de Comercio?'}
               image={'/images/inscripciones/banner.jpg'}
               links={[
